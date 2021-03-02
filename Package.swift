@@ -28,6 +28,6 @@ let package = Package(
                     .product(name: "KeychainSwift", package: "KeychainSwift"),
                 ]
         ),
-        .binaryTarget(name: "SicSdkIos.xcframework", url: "https://raw.githubusercontent.com/LLTemp/sic-sdk/1.5.7/SicSdkIos.xcframework.zip", checksum: "7986d0dcaa0077b4f943ecdd556847853a44a4699a51051a788a9531be45e7b8")
+        .binaryTarget(name: "SicSdkIos", url: "https://raw.githubusercontent.com/LLTemp/sic-sdk/1.5.10/SicSdkIos.xcframework.zip", checksum: "135803425550de5e77dba6856b92fc8d72f30b973a868d76a5eb0de0fbf3bf6c")
     ]
 )
