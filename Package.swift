@@ -29,8 +29,8 @@ let package = Package(
                 ]
         ),
         .binaryTarget( name: "sic-sdk-binary",
-                url: "[REPLACE_ME_URL]",
-                checksum: "[REPLACE_ME_CHECKSUM]"
+                url: "https://raw.githubusercontent.com/LLTemp/sic-sdk/1.5.5/SicSdkIos.xcframework.zip",
+                checksum: "5aa0e13656613156acb65f5fb44fd6a35376ad07d462ccb646e49a5183267555"
         )
     ]
 )
