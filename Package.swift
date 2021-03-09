@@ -28,6 +28,6 @@ let package = Package(
                     .product(name: "KeychainSwift", package: "KeychainSwift"),
                 ]
         ),
-        .binaryTarget(name: "SicSdkIos.xcframework", path: "SicSdkIos.xcframework")
+        .binaryTarget(name: "SicSdkIos", path: "SicSdkIos.xcframework")
     ]
 )
