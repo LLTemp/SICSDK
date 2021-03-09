@@ -1,0 +1,23 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SicSdkIos
+import Foundation
+import KeychainSwift
+import SicSdkIos.OpenSSL
+@_exported import SicSdkIos
+import Swift
+@_hasMissingDesignatedInitializers public class SIC {
+  public static let shared: SicSdkIos.SIC
+  public func hello()
+  public func decryptAESGCM(_ message: Foundation.Data, key: [Swift.UInt8]) throws -> [Swift.UInt8]
+  public func md5() -> Swift.String
+  @objc deinit
+}
+extension Data {
+  public var hex: Swift.String {
+    get
+  }
+  public var bytes: Swift.Array<Swift.UInt8> {
+    get
+  }
+}
